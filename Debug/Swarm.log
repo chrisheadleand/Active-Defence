@@ -1,0 +1,45 @@
+﻿Build started 05/11/2013 16:25:54.
+     1>Project "E:\CODE\eos-master\Swarm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt abeeda\helper.cpp abeeda\main.cpp abeeda\tGame.cpp
+         tGame.cpp
+     1>abeeda\tGame.cpp(151): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>abeeda\tGame.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>abeeda\tGame.cpp(404): error C2065: 'killChance' : undeclared identifier
+     1>abeeda\tGame.cpp(745): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(755): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(763): error C3861: 'log2': identifier not found
+     1>abeeda\tGame.cpp(774): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(777): error C3861: 'log2': identifier not found
+     1>abeeda\tGame.cpp(790): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(800): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(808): error C3861: 'log2': identifier not found
+     1>abeeda\tGame.cpp(840): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(865): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(875): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(885): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(903): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(904): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(916): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(917): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(942): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(946): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(950): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(953): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(955): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(957): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(994): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(995): warning C4018: '<' : signed/unsigned mismatch
+     1>abeeda\tGame.cpp(996): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>abeeda\main.cpp(32): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         helper.cpp
+     1>e:\code\eos-master\abeeda\helper.h(21): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "E:\CODE\eos-master\Swarm.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.44
